@@ -6,19 +6,15 @@
 (키는 공백으로 구분하여 입력됩니다.)
  */
 
-const before = [176, 156, 155, 165, 166, 169];
+const before = "155 165 168 169 176";
+let after = " ";
 
-let after = "";
+after = before.split(" ").sort().join(" ");
 
-after = before.sort(function (a, b) {
-  return a - b;
-});
-console.log(before);
 if (before === after) {
   console.log("Yes");
 } else {
-  console.log("NO");
+  console.log("No");
 }
-
-console.log(before);
-console.log(after);
+// console.log(after);
+// console.log(before);

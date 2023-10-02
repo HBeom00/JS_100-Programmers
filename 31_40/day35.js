@@ -6,8 +6,9 @@
 */
 
 function one(n) {
-  function two() {
-    //pass
+  function two(k) {
+    const a = k ** n;
+    return a;
   }
   return two;
 }
