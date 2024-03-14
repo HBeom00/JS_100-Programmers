@@ -9,5 +9,14 @@
 */
 
 /*
-정답: 3번, 5번dss
+정답: 3번, 5번
 */
+const hee = [1, 10, 4, 5];
+
+hee.sort((a, b) => {
+  return console.log(b - a);
+});
+
+const beom = [1, 10, 4, 5];
+
+console.log(beom.sort((a, b) => a - b));
