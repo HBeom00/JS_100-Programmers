@@ -9,3 +9,13 @@
 입력
 정량 N이 입력됩니다.
 */
+let today = new Date();
+
+let year = today.getFullYear(); // 년도
+let month = today.getMonth() + 1; // 월
+let date = today.getDate(); // 날짜
+let day = today.getDay(); // 요일
+
+console.log(today.toLocaleString());
+console.log(year + "-" + month + "-" + date);
+console.log(2024 - 7 - 17 < 2024 - 7 - 19);

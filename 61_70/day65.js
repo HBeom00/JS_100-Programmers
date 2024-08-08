@@ -16,3 +16,10 @@ result = hee.map((el, index) => {
 });
 
 console.log(result);
+
+let date = [];
+for (let i = 0; i < 3; i++) {
+  const temp = new Date();
+  date.push(temp);
+}
+console.log(date, "오늘");
